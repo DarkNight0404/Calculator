@@ -1,0 +1,43 @@
+h1 {
+    color: #FCA8D2;
+    margin-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 6px;
+}
+
+.display {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 3px;
+    background-color: #E9CAFC;
+    border: 1px solid black;
+}
+
+.displayContainer {
+    padding: 5px;
+}
+
+button {
+    background-color: #FCA8D2;
+    width: calc((100% - 3 * 6px) / 4);
+    height: 50px;
+}
+
+/* #zero {
+    width: calc(50% -  3px);
+
+} */
+
+.container {
+    padding: 10px;
+    background-color: #FCCAE3;
+    width: 300px;
+    border: 0.5px solid black;
+}
