@@ -9,7 +9,7 @@ let reset = false;
 let operator;
 let previous = 0;
 
-buttonsWrap.addEventListener("click", (e) => {
+buttonsWrap.addEventListener("pointerdown", (e) => {
     const btn = e.target.closest("button.box");
     if (!btn) return;
 

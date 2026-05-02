@@ -33,6 +33,8 @@ button {
     width: calc((100% - 3 * 6px) / 4);
     height: 70px;
     font-size: 25px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* #zero {
